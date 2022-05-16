@@ -1,3 +1,8 @@
+use std::collections::HashMap;
+
 fn main() {
-    println!("New commit");
+    let mut map = HashMap::new();
+    map.insert(1,2);
+
+    println!("{}", map);
 }
